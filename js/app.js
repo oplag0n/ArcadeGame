@@ -132,11 +132,13 @@ const player = new Hero();
 const bug1 = new Enemy(-101, 0, 300);
 const bug2 = new Enemy(-101, 83, 200);
 const bug3 = new Enemy(-101 *2.5, 83, 400);
+const bug4 = new Enemy(-101 *5, 166, 300);
 // init allEnemies array
 const allEnemies = [];
 allEnemies.push(bug1);
 allEnemies.push(bug2);
 allEnemies.push(bug3);
+allEnemies.push(bug4);
 // For each enemy create and push new Enemy object into the above array
 
 // This listens for key presses and sends the keys to your
