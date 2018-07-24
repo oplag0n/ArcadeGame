@@ -2,13 +2,15 @@
 var Enemy = function() {
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
-
+    
     // x pos
     // y pos
 
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
     this.sprite = 'images/enemy-bug.png';
+    this.x = 0; 
+    this.y = 0; 
 };
 
 // Update the enemy's position, required method for game
@@ -101,8 +103,10 @@ class Hero {
 
 // New Hero object 
 const player = new Hero();
-
+const bug1 = new Enemy();
 // init allEnemies array
+const allEnemies = [];
+allEnemies.push(bug1);
 // For each enemy create and push new Enemy object into the above array
 
 // This listens for key presses and sends the keys to your
