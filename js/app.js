@@ -35,6 +35,17 @@ Enemy.prototype.render = function() {
 // a handleInput() method.
 
 //Hero class
+class Hero {
+    constructor () {
+        this.x = 0; 
+        this.y = 0;
+        this.sprite = 'images/char-boy.png';
+    }
+
+    render() {
+        ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
+    }
+}
     // Constructor
         // Props
             // x cordinate
@@ -59,6 +70,7 @@ Enemy.prototype.render = function() {
 // Place the player object in a variable called player
 
 // New Hero object 
+const player = new Hero();
 
 // init allEnemies array
 // For each enemy create and push new Enemy object into the above array
