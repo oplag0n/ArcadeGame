@@ -104,23 +104,7 @@ class Hero {
     }
 }
 
-    // Constructor
-        // Props
-            // x cordinate
-            // y cordinate 
-            // Sprite image
-        // Methods
-            // Update Position
-                // check collision 
-                    // did x and y collide with enemy?
-                // check win 
-                    // did player reach final
-            // Render
-                // draw player on current x,y position
-            // Handle keyboard input
-                // Update players x,y pops acording to input
-            // reset hero
-                // set x,y pos to starting x,y
+
 
 
 // Now instantiate your objects.

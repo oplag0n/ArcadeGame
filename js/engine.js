@@ -27,6 +27,7 @@ var Engine = (function(global) {
 
     const modal = document.querySelector('.modal__background');
     const replay = document.querySelector('.modal__button');     
+    
     if (replay) {
     replay.addEventListener('click', () => {
         modal.classList.toggle('hide');
@@ -69,6 +70,7 @@ var Engine = (function(global) {
          * function again as soon as the browser is able to draw another frame.
          */
         if (player.victory) {
+            console.log(win);
             win.cancelAnimationFrame(id);
             modal.classList.toggle('hide');
         } else {
