@@ -54,6 +54,7 @@ class Hero {
         this.startY = (4 * this.jump) + 55;
         this.x = this.startX; 
         this.y = this.startY;
+        this.victory = false; 
     }
 
     render() {
@@ -91,7 +92,9 @@ class Hero {
             if (this.y === enemy.y && (enemy.x + enemy.step/2 > this.x && enemy.x < this.x + this.step/2)) {
                 this.reset();
             }
-            
+        }
+        if (this.y === -28) {
+            this.victory = true;
         }
     }
 
