@@ -27,13 +27,15 @@ var Engine = (function(global) {
 
     const modal = document.querySelector('.modal__background');
     const replay = document.querySelector('.modal__button');     
-
+    if (replay) {
     replay.addEventListener('click', () => {
         modal.classList.toggle('hide');
         player.reset();
         player.victory = false;
         win.requestAnimationFrame(main); 
     });
+}
+
     
     canvas.width = 505;
     canvas.height = 606;
