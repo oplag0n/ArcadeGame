@@ -51,7 +51,7 @@ class Hero {
         this.step = 101;
         this.jump = 83;
         this.startX = 2 * this.step;
-        this.startY = (5 * this.jump) -15;
+        this.startY = (4 * this.jump) + 55;
         this.x = this.startX; 
         this.y = this.startY;
     }
@@ -85,7 +85,22 @@ class Hero {
                 
         }
     }
+
+    update() {
+        for(let enemy of allEnemies) {
+            if (this.y === enemy.y && (enemy.x + enemy.step/2 > this.x && enemy.x < this.x + this.step/2)) {
+                this.reset();
+            }
+            
+        }
+    }
+
+    reset() {
+        this.x = this.startX;
+        this.y = this.startY;
+    }
 }
+
     // Constructor
         // Props
             // x cordinate
