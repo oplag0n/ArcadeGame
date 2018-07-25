@@ -1,6 +1,40 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Table of Contents
+
+* [Instructions](#instructions)
+* [Contributing](#contributing)
+* [The Game description and how to play](#game)
+* [The Author](#author)
+* [Installation](#installation)
+* [Required Dependencies](#dependencies)
+
+## Instructions
+
+To get started, open `js/app.js` and start building out the app's functionality
+
+For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+
+## Contributing
+
+This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+
+For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## The Game description and how to play
+
+This is a classic arcade frogger game. Use the arrow keys to move the character around within the playing field. Try to reach the water without getting hit by the bugs. Good Luck!
+
+## The Author
+
+Using the starter pack of Udacity the author of the full game functionality is Christoph. He has created this game as an Exercis for the FEND Degree. 
+
+## Installation 
+
+Follow the instructions on Github to clone the repository. In the main folder open the index.html file with your preffered browser to start the game. 
+
+## Required Dependencies 
+
+This game runs in plain JavaScript. There are no dependencies. 
